@@ -4,16 +4,31 @@
     <meta charset="UTF-8">
     <title>VideoPlayer</title>
     <link rel="stylesheet" href="static/css/font-awesome.min.css">
+    <style type="text/css">
+      button.player-button {
+        border: none; 
+        width: 40px; 
+        height: 40px; 
+        background: transparent;
+      }
+      .player-button-bar {
+        background-color: black;
+      }
+      .player-button-icon {
+        font-size: 16px; 
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <div id="player" style="width: 800px; height: 600px;">
       <div class="js-video-container" style="width: 100%; height: 100%"></div>
-      <div style="background-color: black;">
-        <button class="js-play-button" style="border: none; width: 40px; height: 40px; background: transparent;">
-          <i class="fa fa-play" style="font-size: 16px; color: white;"></i>
+      <div class="player-button-bar">
+        <button class="js-play-button player-button">
+          <i class="fa fa-play player-button-icon"></i>
         </button>
-        <button class="js-pause-button" style="border: none; width: 40px; height: 40px; background: transparent;">
-          <i class="fa fa-pause" style="font-size: 16px; color: white;"></i>
+        <button class="js-pause-button player-button">
+          <i class="fa fa-pause player-button-icon"></i>
         </button>
       </div>
     </div>
