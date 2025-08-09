@@ -9,15 +9,15 @@
     flex-grow: 1;
   }
   .player-button-bar {
+    padding: 2px;
     display: flex;
-    height: 45px;
+    height: 40px;
     background: black;
   }
   button.player-button {
-    margin: 2.5px;
+    margin: 2px;
     border: none;
-    width: 40px;
-    height: 40px;
+    width: 30px;
     background: transparent;
     cursor: pointer;
   }
