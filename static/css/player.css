@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('static/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 .player-container {
     display: flex;
     flex-direction: column;
@@ -24,4 +30,12 @@
   .player-button-icon {
     font-size: 20px;
     color: white;
+  }
+  .timer {
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
   }
