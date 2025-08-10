@@ -66,9 +66,10 @@
     width: 8px;
     border-radius: 50%;
     opacity: 0;
-    transition: opacity 200ms linear;
+    transition: opacity 300ms ease-in;
   }
 
   .progress-bar-container:hover .progress-tracker {
     opacity: 1;
+    transition: opacity 300ms ease-out;
   }
