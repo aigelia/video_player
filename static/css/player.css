@@ -67,4 +67,14 @@
     height: 8px;
     width: 8px;
     border-radius: 50%;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+  }
+  .progress-bar-container:hover .progress-tracker {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
   }
